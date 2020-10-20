@@ -4,6 +4,10 @@ Principais tópicos cobertos no Implementing Domain-Driven Design, do Vaughn Ver
 
 ## Chapter 1 - Getting Started with DDD
 
+
+
+
+
 O DDD serve para nos ajudar a desenvolver softwares de alta qualidade, que realmente modelam o domínio do negócio e agregam valor de forma significativa, estratégica e táticamente.
 
 Para isso, o entendimento do negócio é fundamental. Todos devem falar a mesma **Ubiquitous Language**.
@@ -23,24 +27,24 @@ DDD Scorecard: tabela com necessidades da aplicação, associadas a pontuações
 
 São um **bloco de construção fundamental** do DDD. Podem ser números, textos, moedas, telefones, endereços, documentos... enfim, qualquer *`Valor`* que modele *`conceitos do domínio`*, usando sua *`Linguagem Ubíqua`*.
 
-Eles são fáceis de criar, testar, usar, otimizar e manter.
+Eles são **fáceis** de criar, testar, usar, otimizar e manter.
 
-Geralmente são usados como atributos/propriedades para as *`Entidades`*.
+Geralmente são usados como **atributos** para as *`Entidades`*.
 
-Reduzem a complexidade da integração entre conceitos.
+Reduzem a **complexidade** da integração entre conceitos.
 
-Evitam que todos os conceitos do domínio sejam modelados como entidades anêmicas, frutos de um design voltado para o banco de dados.
+Evitam que conceitos do domínio sejam modelados como **entidades anêmicas**, frutos de um design voltado para o banco de dados.
 
 Pense em uma *`String`* ou uma *`Data`*: ambas são modelos de conceitos, armazenam dados internamente e expõe operações através de suas interfaces. A ideia aqui com os Objetos de Valor é criar tipos diretamente ligados ao domínio, que também possuam essas características.
 
 Podiam ser chamados de *`Domain Types`*.
 
 ### Características
-- Mede, quantifica ou descreve alguma coisa do domínio.
-- Pode ser mantido como imutável.
+- Mede, quantifica ou descreve alguma *coisa do domínio*.
+- Pode ser mantido como *imutável*.
 - Modela um *todo conceitual*, compondo atributos relacionados como uma unidade integral.
 - É *completamente substituível* quando precisa ser mudado.
-- Pode ser comparado com outros usando apenas a igualdade de valores.
+- Pode ser comparado com outros usando apenas a *igualdade de valores*.
 - Fornece aos seus utilizadores um *comportamento livre de efeitos colaterais*.
 
 ### Integre com minimalismo
